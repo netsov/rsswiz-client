@@ -1,0 +1,23 @@
+.my-feed div.my-elevation {
+  margin: 10px;
+}
+
+.my-feeds-container {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  flex-direction: column;
+}
+
+.my-feeds-container ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*.my-feeds-container > span {*/
+    /*margin: 1em auto;*/
+    /*color: var(--custom-grey);*/
+/*}*/

@@ -1,0 +1,12 @@
+.mdc-toolbar form {
+  margin-right: 10px;
+}
+
+.mdc-toolbar section {
+  align-items: center;
+}
+
+header.mdc-toolbar {
+  color: var(--custom-grey);
+  background-color: white;
+}

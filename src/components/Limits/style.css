@@ -1,0 +1,9 @@
+.limits-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.limits-container button {
+    min-width: 0 !important;
+}

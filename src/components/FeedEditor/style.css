@@ -1,0 +1,18 @@
+.editor-page-wrapper {
+    /*padding: 10px auto;*/
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+
+/*.editor-tab-section {*/
+    /*padding: 30px 20px 0 20px*/
+/*}*/
+
+.editor-page-wrapper > .my-elevation {
+    max-width: 466px;
+}
+
+.mdc-tab {
+    min-width: 72px !important;
+    padding: 0 12px;
+}

@@ -1,0 +1,13 @@
+button.mdc-button--raised {
+  background-color: var(--mdc-theme-primary); }
+
+svg {
+  fill: var(--custom-grey); }
+
+svg:hover {
+  fill: var(--custom-grey); }
+
+:root {
+  --custom-grey: #757575;
+  --mdc-theme-primary: #4285f4;
+  --mdc-theme-secondary: #ffeb3b; }

@@ -1,0 +1,52 @@
+aside {
+    position: fixed;
+}
+
+.drawer-footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 16px 16px;
+    color: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.drawer-footer a {
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+@media(max-width: 1024px) {
+    aside nav.persistent {
+        display: none;
+    }
+}
+
+nav.persistent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav.persistent small {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+nav.persistent a {
+    margin-bottom: 15px;
+}
+
+.persistent-link-container {
+    width: 72px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mdc-persistent-drawer--selected svg, .mdc-temporary-drawer--selected svg {
+    fill: var(--mdc-theme-primary);
+}

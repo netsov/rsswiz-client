@@ -1,0 +1,27 @@
+.my-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-card-content nav {
+    align-self: baseline;
+}
+
+.my-card-left-column {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    flex: 1;
+}
+
+.my-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.my-elevation > .my-card-content {
+    /*max-width: 800px;*/
+}

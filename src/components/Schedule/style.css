@@ -1,0 +1,29 @@
+.schedule-container {
+  display: flex;
+  flex-direction: column; }
+
+.schedule-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px; }
+
+.schedule-container header small {
+  color: lightslategrey; }
+
+.times-container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.times-row button {
+  min-width: 40px;
+  padding: 0 8px;
+  margin-right: 4px;
+  margin-top: 4px; }
+
+.period-container button[disabled] {
+  padding-left: 0;
+  padding-right: 10px; }
+
+.times-row {
+  display: flex; }

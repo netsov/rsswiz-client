@@ -1,0 +1,6 @@
+.mi-wrapper:not(:last-child) {
+    margin-bottom: 20px;
+}
+.mi-wrapper .mdc-textfield {
+    margin-bottom: 5px;
+}
